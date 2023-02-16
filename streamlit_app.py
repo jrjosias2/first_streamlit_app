@@ -44,7 +44,7 @@ streamlit.text(my_data_row)
 
 #---
 
-my_cur.execute("SELECT * FROM fruit_load_list")
+my_cur.execute("SELECT * FROM pc_rivery_db.public.fruit_load_list")
 my_data_row = my_cur.fetchone()
 streamlit.text("Fruit load list have: ")
 streamlit.text(my_data_row)
